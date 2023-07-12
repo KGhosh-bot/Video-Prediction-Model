@@ -11,17 +11,22 @@ translator and a decoder built on CNN only.
 3. the decoder integrates spatio-temporal information to predict future frame.
 
 The model is based on this structure.
+
 ![model_structure](https://github.com/KGhosh-bot/Next_frame_prediction/assets/76099938/ff8723c2-c837-4543-9afb-29c7c0f8d2c5)
 
 where in this case the number of channels C for Moving MNIST is 1 (single channel for grayscale).
 The input/output shape is (H, W, T) for Height, Width and Frames
+
 Input is $x[0 : (n-1)]$
+
 Output is $x[n]$
+
 where n is number of frames
 
 ![Detailed structure](https://github.com/KGhosh-bot/Next_frame_prediction/assets/76099938/c6e7a186-020b-4feb-99aa-9a5cff03f501)
 
 The Inception Module used here is a generic Inception module with dimention reduction.
+
 kernel sizes [1,3,5,7]
 
 Library - Keras
