@@ -5,8 +5,8 @@ This project uses the Moving MNIST dataset, composed of 10,000 video sequences, 
 
 While each sequence has a lenght of 20, I used **only 3 consecutive frames as input**, and **predict the next one**.
 
-The model, a personalized verson of SimVP (Simpler yet better Video Prediction), consists of an encoder, a
-translator and a decoder built on CNN only.
+The model, a personalized verson of **SimVP (Simpler yet better Video Prediction)**, consists of an *encoder, a
+translator and a decoder* built on **CNN** only.
 1. The encoder is used to extract spatial features,
 2. the translator learns temporal evolution, and
 3. the decoder integrates spatio-temporal information to predict future frame.
