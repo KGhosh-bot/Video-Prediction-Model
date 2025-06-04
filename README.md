@@ -22,7 +22,7 @@ Input is $x[0 : (n-1)]$
 
 Output is $x[n]$
 
-where n is number of frames
+where n is number of frames.
 
 ![Detailed structure](https://github.com/KGhosh-bot/Next_frame_prediction/assets/76099938/c6e7a186-020b-4feb-99aa-9a5cff03f501)
 
